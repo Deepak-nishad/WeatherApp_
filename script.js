@@ -145,10 +145,7 @@ function getIconClass(classarg) {
     }
 }
 
-// function reset() {
-//     let input = document.getElementById('input-box');
-//     input.value = "";
-// }
+
 
 // funtion to add zero if hour and minute less than 10
 function addZero(i) {
