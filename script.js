@@ -66,6 +66,11 @@ function showWeaterReport(weather) {
     <div class="day-details">
         <div class="basic">Feels like ${weather.main.feels_like}&deg;C | Humidity ${weather.main.humidity}%  <br> Pressure ${weather.main.pressure} mb | Wind ${weather.wind.speed} KMPH</div>
     </div>
+    <div class= "Geo">
+     <div class="lat"> Latitude is ${weather.coord.lat} | Longitude ${
+      weather.coord.lon
+    }
+    </div>
     `;
     parent.append(weather_body);
     changeBg(weather.weather[0].main);
